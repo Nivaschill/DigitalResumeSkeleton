@@ -23,6 +23,7 @@ class HomeContainer extends Component {
       tabLabels: ResumeData.tabLabels,
       skillsList: ResumeData.skillsList,
       experienceList: ResumeData.experienceList,
+      educationList: ResumeData.educationList,
       avatar: ResumeData.avatar,
       profileSummary: ResumeData.profileSummary,
       buttonLinks: ResumeData.buttonList

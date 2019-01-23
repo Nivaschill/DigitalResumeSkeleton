@@ -3,7 +3,7 @@ import {Card, CardContent} from 'material-ui';
 import ResumeBodyTabs from './ResumeBodyTabs';
 import ResumeBodyContent from './ResumeBodyContent';
 
-const ResumeBodyCard = ({value, handleChange, handleChangeIndex, tabLabels, skillsList, experienceList}) =>
+const ResumeBodyCard = ({value, handleChange, handleChangeIndex, tabLabels, skillsList, experienceList,educationList}) =>
   <Card className="card" elevation={2}>
     <CardContent className="card__content">
       <ResumeBodyTabs value={value} handleChange={handleChange} tabLabels={tabLabels} />
@@ -12,6 +12,7 @@ const ResumeBodyCard = ({value, handleChange, handleChangeIndex, tabLabels, skil
         handleChangeIndex={handleChangeIndex} 
         skillsList={skillsList} 
         experienceList={experienceList} 
+        educationList={educationList}
       />
     </CardContent>
   </Card>

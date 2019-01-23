@@ -2,14 +2,16 @@
 import React from 'react';
 import {List, Typography} from 'material-ui';
 import TabContainer from './TabContainer';
-import Spacer from './Spacer';
+//import Spacer from './Spacer';
 
 const educationListContainer = (educationList) => educationList.map(education =>
   <div>
     <Typography type="headline" component="h2">
       {education.schoolName}, {education.schoolLocation}
     </Typography>
-    <div> {education.major} <Spacer /> {education.graduationSemester}{education.graduationYear} </div>
+    <div> {education.major}</div>
+    <div> {education.degree}</div> 
+    <div> {education.graduationYear} </div>
   </div>
 )
 
